@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <div className="h-screen w-screen bg-black overflow-hidden relative">
-      <div className="absolute inset-0 text-neutral-800 text-4xl whitespace-pre animate-move">
+      <div className="absolute inset-0 text-neutral-700 text-4xl whitespace-pre animate-move">
         {Array(50).fill(Array(100).fill('@').join('')).join('\n')}
       </div>
       <div className="absolute inset-0 flex justify-center items-center">
