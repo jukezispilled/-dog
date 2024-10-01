@@ -13,6 +13,14 @@ export default function App() {
 
   return (
     <div className="h-screen w-screen bg-black overflow-hidden relative">
+
+      <div className='absolute bottom-[15%] flex justify-center w-full z-10'>
+        <a href="" className='bg-white rounded flex justify-between px-3 py-2 font-semibold items-center gap-2 hover:bg-slate-200'>
+          <img src="dog.png" className='size-12 rounded-full'></img>
+          @dogtagsolana
+        </a>
+      </div>
+
       <div className="absolute inset-0 text-neutral-700 text-4xl whitespace-pre animate-move">
         {Array(50).fill(Array(100).fill('@').join('')).join('\n')}
       </div>
