@@ -17,7 +17,7 @@ export default function App() {
         {Array(50).fill(Array(100).fill('@').join('')).join('\n')}
       </div>
       <div className="absolute inset-0 flex justify-center items-center">
-        <div className="bg-black border border-neutral-800 p-4 rounded-xl shadow-lg max-w-md w-full">
+        <div className="bg-black border border-neutral-800 p-4 rounded-xl shadow-lg max-w-md w-[95vw] md:w-full">
           <textarea
             className="w-full p-2 bg-black text-white border-none resize-none focus:outline-none focus:ring-0"
             placeholder="Type away and we will automatically add the @!"
